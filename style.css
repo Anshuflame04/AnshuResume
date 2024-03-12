@@ -501,6 +501,44 @@ btn:hover{
     }
 }
 
+/* Adjustments for Android phones */
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 1.5rem 3%;
+    }
+
+    .navbar {
+        padding: 1rem 3%;
+    }
+
+    .home-img img {
+        width: 80vw;
+    }
+
+    .about-img img {
+        width: 80vw;
+    }
+
+    .services-container .services-box {
+        flex: 1 1 100%;
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        padding: 1rem;
+    }
+
+    .footer {
+        padding: 1.5rem 3%;
+    }
+}
+
+
 @media (max-width: 450px){
     html{
         font-size: 50%;
