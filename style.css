@@ -495,6 +495,38 @@ btn:hover{
     }
 }
 
+/* Adjustments for larger Android phones like Redmi Note 10 Pro */
+@media only screen and (max-width: 720px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .navbar {
+        padding: 1.5rem 5%;
+        display: flex; /* Ensure navbar is always displayed */
+        justify-content: space-between; /* Spread navbar items evenly */
+        align-items: center; /* Center items vertically */
+    }
+
+    .navbar a {
+        font-size: 1.6rem; /* Increase font size for better visibility */
+        margin-left: 3rem; /* Increase margin between navbar items */
+    }
+
+    #menu-icon {
+        font-size: 3rem; /* Increase menu icon size for better touch interaction */
+    }
+
+    .navbar.active {
+        display: flex; /* Ensure navbar is visible on smaller screens */
+    }
+
+    .home-content {
+        padding-top: 8rem; /* Add additional padding to home content */
+    }
+}
+
+
 @media (max-width: 617px){
     .portfolio-container{
         grid-template-columns: 1fr;
