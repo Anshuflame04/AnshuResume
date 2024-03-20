@@ -532,8 +532,8 @@ btn:hover{
         grid-template-columns: 1fr;
     }
 }
-
-/* Adjustments for Android phones */
+/*
+/* Adjustments for Android phones 
 @media (max-width: 480px) {
     .header {
         padding: 1.5rem 3%;
@@ -599,3 +599,4 @@ btn:hover{
         margin-top: 2rem;
     }
 }
+*/
