@@ -534,7 +534,7 @@ btn:hover{
 }
 
 /* Adjustments for Android phones */
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .header {
         padding: 1.5rem 3%;
     }
