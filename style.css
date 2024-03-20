@@ -429,7 +429,7 @@ btn:hover{
         padding: 2rem 3%;
     }
 }
-
+/*
 @media (max-width: 768px){
     #menu-icon{
         display: block;
@@ -494,9 +494,9 @@ btn:hover{
         grid-template-columns: repeat(2,1fr);
     }
 }
-
+*/
 /* Adjustments for larger Android phones like Redmi Note 10 Pro */
-@media only screen and (max-width: 720px) {
+@media (max-width: 720px) {
     .header {
         padding: 2rem 5%;
     }
